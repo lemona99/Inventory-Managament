@@ -53,28 +53,6 @@
     <!-- ./col -->
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
-        <div class="small-box bg-red">
-            <div class="inner">
-                <h3>{{ \App\Customer::count() }}</h3>
-
-                <p>Customer</p>
-            </div>
-            <div class="icon">
-                <i class="fa fa-users"></i>
-            </div>
-            <a href="{{ route('customers.index') }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-        </div>
-    </div>
-    <!-- ./col -->
-</div>
-<!-- Log on to codeastro.com for more projects! -->
-
-
-<div class="row">
-    
-    <!-- ./col -->
-    <div class="col-lg-3 col-xs-6">
-        <!-- small box -->
         <div class="small-box bg-purple">
             <div class="inner">
                 <h3>{{ \App\Supplier::count() }}<sup style="font-size: 20px"></sup></h3>
@@ -88,6 +66,12 @@
         </div>
     </div>
     <!-- ./col -->
+</div>
+<!-- Log on to codeastro.com for more projects! -->
+
+
+<div class="row">
+    
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
         <div class="small-box bg-maroon">

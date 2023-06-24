@@ -31,7 +31,6 @@
                 <tr>
                     <th>ID</th>
                     <th>Products</th>
-                    <th>Customer</th>
                     <th>Qty.</th>
                     <th>Date</th>
                     <th>Actions</th>
@@ -64,7 +63,6 @@
                 <tr>
                     <th>ID</th>
                     <th>Products</th>
-                    <th>Customer</th>
                     <th>Qty.</th>
                     <th>Date</th>
                     <th>Action</th>
@@ -75,7 +73,6 @@
                     <tbody>
                         <td>{{ $i->id }}</td>
                         <td>{{ $i->product->nama }}</td>
-                        <td>{{ $i->customer->nama }}</td>
                         <td>{{ $i->qty }}</td>
                         <td>{{ $i->tanggal }}</td>
                         <td>
@@ -160,7 +157,6 @@
             columns: [
                 {data: 'id', name: 'id'},
                 {data: 'products_name', name: 'products_name'},
-                {data: 'customer_name', name: 'customer_name'},
                 {data: 'qty', name: 'qty'},
                 {data: 'tanggal', name: 'tanggal'},
                 {data: 'action', name: 'action', orderable: false, searchable: false}
@@ -189,7 +185,6 @@
 
                     $('#id').val(data.id);
                     $('#product_id').val(data.product_id);
-                    $('#customer_id').val(data.customer_id);
                     $('#qty').val(data.qty);
                     $('#tanggal').val(data.tanggal);
                 },

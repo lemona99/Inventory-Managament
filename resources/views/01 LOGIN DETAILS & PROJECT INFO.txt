@@ -1,7 +1,7 @@
 ---Admin Login Details---
 
-Email   : ikhsanlemon319@gmail.com
-Password: sahabatinventory
+Email   : admin@gmail.com
+Password: admin123
 
 
 

@@ -23,12 +23,6 @@
                         </div>
 
                         <div class="form-group">
-                            <label >Customer</label>
-                            {!! Form::select('customer_id', $customers, null, ['class' => 'form-control select', 'placeholder' => '-- Choose Customer --', 'id' => 'customer_id', 'required']) !!}
-                            <span class="help-block with-errors"></span>
-                        </div>
-
-                        <div class="form-group">
                             <label >Quantity</label>
                             <input type="text" class="form-control" id="qty" name="qty" required>
                             <span class="help-block with-errors"></span>
@@ -53,7 +47,7 @@
             </form>
         </div>
         <!-- /.modal-content -->
-    </div><!-- Log on to codeastro.com for more projects! -->
+    </div>
     <!-- /.modal-dialog -->
 </div>
 <!-- /.modal -->

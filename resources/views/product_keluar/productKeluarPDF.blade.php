@@ -21,41 +21,12 @@
 
 <body>
 <div class="invoice-box">
-    <!-- <table cellpadding="0" cellspacing="0">
-        <tr class="top">
-            <td colspan="2">
-                <table>
-                    <tr>
-                        <td class="title">
-                            <img src="https://www.sparksuite.com/images/logo.png" style="width:100%; max-width:300px;">
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table> -->
-
-
         <table border="0" id="table-data" width="100%">
             <tr>
                 <td width="70px"><b>Invoice</b></td>
                 <td width="">: ##{{ $product_keluar->id }}</td>
                 <td width="30px"><b>Created</b></td>
                 <td>: {{ $product_keluar->tanggal }}</td>
-            </tr>
-
-            <tr>
-                <td><b>Contact</b></td>
-                <td>: {{ $product_keluar->customer->telepon }}</td>
-                <td><b>Address</b></td>
-                <td>: {{ $product_keluar->customer->alamat }}</td>
-            </tr>
-
-            <tr>
-                <td><b>Customer</b></td>
-                <td>: {{ $product_keluar->customer->nama }}</td>
-                <td><b>Email</b></td>
-                <td>: {{ $product_keluar->customer->email }}</td>
             </tr>
 
             <tr>
@@ -106,10 +77,6 @@
     			<div class="col-xs-6">
     				<address>
     				<strong>Billed To:</strong><br>
-                    {{ $product_keluar->customer->nama }}<br>
-                    {{ $product_keluar->customer->alamat }}<br>
-                    {{ $product_keluar->customer->email }}<br>
-                    {{ $product_keluar->customer->telepon }}
     				</address>
     			</div>
     			<div class="col-xs-6 text-right">
