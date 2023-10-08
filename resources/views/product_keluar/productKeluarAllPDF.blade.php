@@ -44,6 +44,7 @@
     <tr>
         <td>ID</td>
         <td>Product</td>
+        <td>Customer</td>
         <td>Quantity</td>
         <td>Date</td>
     </tr>
@@ -53,6 +54,7 @@
         <tr>
             <td>{{ $p->id }}</td>
             <td>{{ $p->product->nama }}</td>
+            <td>{{ $p->customer->nama }}</td>
             <td>{{ $p->qty }}</td>
             <td>{{ $p->tanggal }}</td>
         </tr>

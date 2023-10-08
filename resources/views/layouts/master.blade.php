@@ -4,7 +4,7 @@
     <!-- Log on to codeastro.com for more projects! -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SInv</title>
+    <title>Sahabat Inventory</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -22,14 +22,14 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('assets/dist/css/AdminLTE.min.css')}} ">
     <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
-        page. However, you can choose any other skin. Make sure you
-        apply the skin class to the body tag so the changes take effect. -->
+          page. However, you can choose any other skin. Make sure you
+          apply the skin class to the body tag so the changes take effect. -->
     <link rel="stylesheet" href="{{ asset('assets/dist/css/skins/skin-green.min.css')}} ">
 
 @yield('top')
 
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
 <body class="hold-transition skin-green sidebar-mini">
 <div class="wrapper">
@@ -40,7 +40,7 @@
         <!-- Logo -->
         <a href="index2.html" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>SI</b>nv</span>
+            <span class="logo-mini"><b>Sin</b>V</span>
             <!-- logo for regular state and mobile devices -->
             <span class="logo-lg"><b>Sahabat</b> Inventory</span>
         </a>
@@ -81,8 +81,8 @@
                                 {{--</div>--}}
                                 <div class="pull-right">
                                     <a class="btn btn-danger btn-flat" href="{{ route('logout') }}"
-                                        onclick="event.preventDefault();
-                                                    document.getElementById('logout-form').submit();">
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -119,11 +119,11 @@
     <footer class="main-footer">
         <!-- To the right -->
         <div class="pull-right hidden-xs">
-            Developed by MPPL Kelompok 2
+            Developed by Kelompok 2 MPPL
         </div>
         <!-- Default to the left -->
         <?php $date = date('Y')?>
-        <strong>&copy; {{$date}} - Sahabat Inventory </strong>
+        <strong>&copy; {{$date}} - Inventory Management System </strong>
     </footer>
 
     <!-- Control Sidebar -->

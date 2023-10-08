@@ -1,0 +1,8 @@
+---Login Details---
+
+Email   : admin@mail.com
+Password: admin123
+
+Email   : staff@mail.com
+Password: staff123
+

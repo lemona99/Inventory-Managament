@@ -15,22 +15,22 @@
 {{--</head>--}}
 {{--<body>--}}
 <style>
-    #product-masuk {
+    #categories {
         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
         border-collapse: collapse;
         width: 100%;
     }
 
-    #product-masuk td, #product-masuk th {
+    #categories td, #categories th {
         border: 1px solid #ddd;
         padding: 8px;
     }
 
-    #product-masuk tr:nth-child(even){background-color: #f2f2f2;}
+    #categories tr:nth-child(even){background-color: #f2f2f2;}
 
-    #product-masuk tr:hover {background-color: #ddd;}
+    #categories tr:hover {background-color: #ddd;}
 
-    #product-masuk th {
+    #categories th {
         padding-top: 12px;
         padding-bottom: 12px;
         text-align: left;
@@ -39,24 +39,22 @@
     }
 </style>
 
-<table id="product-masuk" width="100%">
+<table id="categories" width="100%">
     <thead>
     <tr>
         <td>ID</td>
-        <td>Product</td>
-        <td>Customer</td>
-        <td>Quantity</td>
-        <td>Date</td>
+        <td>Name</td>
+        <td>Address</td>
+        <td>Email</td>
     </tr>
     </thead>
-    @foreach($product_keluar as $p)
+    @foreach($sales as $s)
         <tbody>
         <tr>
-            <td>{{ $p->id }}</td>
-            <td>{{ $p->product->nama }}</td>
-            <td>{{ $p->customer->nama }}</td>
-            <td>{{ $p->qty }}</td>
-            <td>{{ $p->tanggal }}</td>
+            <td>{{ $s->id }}</td>
+            <td>{{ $s->nama }}</td>
+            <td>{{ $s->alamat }}</td>
+            <td>{{ $s->email }}</td>
         </tr>
         </tbody>
     @endforeach

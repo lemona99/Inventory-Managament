@@ -17,30 +17,31 @@
 
                     <div class="box-body">
                         <div class="form-group">
-                            <label >Products</label>
-                            {!! Form::select('product_id', $products, null, ['class' => 'form-control select', 'placeholder' => '-- Choose Product --', 'id' => 'product_id', 'required']) !!}
+                            <label >Name</label>
+                            <input type="text" class="form-control" id="nama" name="nama"  autofocus required>
                             <span class="help-block with-errors"></span>
                         </div>
 
                         <div class="form-group">
-                            <label >Customer</label>
-                            {!! Form::select('customer_id', $customers, null, ['class' => 'form-control select', 'placeholder' => '-- Choose Customer --', 'id' => 'customer_id', 'required']) !!}
+                            <label >Address</label>
+                            <input type="text" class="form-control" id="alamat" name="alamat"   required>
                             <span class="help-block with-errors"></span>
                         </div>
 
                         <div class="form-group">
-                            <label >Quantity</label>
-                            <input type="text" class="form-control" id="qty" name="qty" required>
+                            <label >Email</label>
+                            <input type="email" class="form-control" id="email" name="email"   required>
                             <span class="help-block with-errors"></span>
                         </div>
 
                         <div class="form-group">
-                            <label >Date</label>
-                            <input data-date-format='yyyy-mm-dd' type="text" class="form-control" id="tanggal" name="tanggal"   required>
+                            <label >Phone</label>
+                            <input type="text" class="form-control" id="telepon" name="telepon"   required>
                             <span class="help-block with-errors"></span>
                         </div>
 
-                    </div>
+
+                    </div><!-- Log on to codeastro.com for more projects! -->
                     <!-- /.box-body -->
 
                 </div>
@@ -53,7 +54,7 @@
             </form>
         </div>
         <!-- /.modal-content -->
-    </div><!-- Log on to codeastro.com for more projects! -->
+    </div>
     <!-- /.modal-dialog -->
 </div>
 <!-- /.modal -->

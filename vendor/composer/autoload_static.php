@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit306b6f310bc1d367bda5685895034d37
+class ComposerStaticInit019bc0300ab09120898366a2ff8efc64
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -262,8 +262,8 @@ class ComposerStaticInit306b6f310bc1d367bda5685895034d37
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
         'Zend\\Diactoros\\' => 
         array (
@@ -423,8 +423,8 @@ class ComposerStaticInit306b6f310bc1d367bda5685895034d37
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
         ),
         'Psr\\Container\\' => 
         array (
@@ -488,8 +488,8 @@ class ComposerStaticInit306b6f310bc1d367bda5685895034d37
         ),
         'Illuminate\\Notifications\\' => 
         array (
-            0 => __DIR__ . '/..' . '/laravel/nexmo-notification-channel/src',
-            1 => __DIR__ . '/..' . '/laravel/slack-notification-channel/src',
+            0 => __DIR__ . '/..' . '/laravel/slack-notification-channel/src',
+            1 => __DIR__ . '/..' . '/laravel/nexmo-notification-channel/src',
         ),
         'Illuminate\\' => 
         array (
@@ -5298,11 +5298,11 @@ class ComposerStaticInit306b6f310bc1d367bda5685895034d37
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit306b6f310bc1d367bda5685895034d37::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit306b6f310bc1d367bda5685895034d37::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit306b6f310bc1d367bda5685895034d37::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit306b6f310bc1d367bda5685895034d37::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit306b6f310bc1d367bda5685895034d37::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit019bc0300ab09120898366a2ff8efc64::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit019bc0300ab09120898366a2ff8efc64::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit019bc0300ab09120898366a2ff8efc64::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit019bc0300ab09120898366a2ff8efc64::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit019bc0300ab09120898366a2ff8efc64::$classMap;
 
         }, null, ClassLoader::class);
     }
